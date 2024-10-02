@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9073642CAD9F6900653DD1 /* Ball3GamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073632CAD9F6900653DD1 /* Ball3GamesApp.swift */; };
+		EE9073662CAD9F6900653DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073652CAD9F6900653DD1 /* ContentView.swift */; };
+		EE9073682CAD9F6D00653DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9073672CAD9F6D00653DD1 /* Assets.xcassets */; };
+		EE90736B2CAD9F6D00653DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE90736A2CAD9F6D00653DD1 /* Preview Assets.xcassets */; };
+		EE9073742CADA35C00653DD1 /* JosefinSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE9073732CADA35C00653DD1 /* JosefinSans.ttf */; };
+		EE9073772CADA3A000653DD1 /* RecordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073762CADA3A000653DD1 /* RecordsViewModel.swift */; };
+		EE90737A2CADAAB100653DD1 /* CatchBallsFirstGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073792CADAAB100653DD1 /* CatchBallsFirstGameScene.swift */; };
+		EE90737C2CADBCDE00653DD1 /* CatchBallsFirstGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90737B2CADBCDE00653DD1 /* CatchBallsFirstGameView.swift */; };
+		EE90737F2CADBDA900653DD1 /* NewRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90737E2CADBDA900653DD1 /* NewRecordView.swift */; };
+		EE9073812CADBF2900653DD1 /* LoseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073802CADBF2900653DD1 /* LoseGameView.swift */; };
+		EE9073832CADBFAD00653DD1 /* PauseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073822CADBFAD00653DD1 /* PauseGameView.swift */; };
+		EE9073862CADC3E900653DD1 /* CatchBallsSecondGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073852CADC3E900653DD1 /* CatchBallsSecondGameScene.swift */; };
+		EE9073882CADC88D00653DD1 /* CatchBallsSecondGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9073872CADC88D00653DD1 /* CatchBallsSecondGameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE9073602CAD9F6900653DD1 /* Ball3Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ball3Games.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9073632CAD9F6900653DD1 /* Ball3GamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball3GamesApp.swift; sourceTree = "<group>"; };
+		EE9073652CAD9F6900653DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE9073672CAD9F6D00653DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE90736A2CAD9F6D00653DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE9073732CADA35C00653DD1 /* JosefinSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JosefinSans.ttf; sourceTree = "<group>"; };
+		EE9073752CADA36800653DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE9073762CADA3A000653DD1 /* RecordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewModel.swift; sourceTree = "<group>"; };
+		EE9073792CADAAB100653DD1 /* CatchBallsFirstGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchBallsFirstGameScene.swift; sourceTree = "<group>"; };
+		EE90737B2CADBCDE00653DD1 /* CatchBallsFirstGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchBallsFirstGameView.swift; sourceTree = "<group>"; };
+		EE90737E2CADBDA900653DD1 /* NewRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordView.swift; sourceTree = "<group>"; };
+		EE9073802CADBF2900653DD1 /* LoseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseGameView.swift; sourceTree = "<group>"; };
+		EE9073822CADBFAD00653DD1 /* PauseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseGameView.swift; sourceTree = "<group>"; };
+		EE9073852CADC3E900653DD1 /* CatchBallsSecondGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchBallsSecondGameScene.swift; sourceTree = "<group>"; };
+		EE9073872CADC88D00653DD1 /* CatchBallsSecondGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchBallsSecondGameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE90735D2CAD9F6900653DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9073572CAD9F6900653DD1 = {
+			isa = PBXGroup;
+			children = (
+				EE9073622CAD9F6900653DD1 /* Ball3Games */,
+				EE9073612CAD9F6900653DD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9073612CAD9F6900653DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9073602CAD9F6900653DD1 /* Ball3Games.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9073622CAD9F6900653DD1 /* Ball3Games */ = {
+			isa = PBXGroup;
+			children = (
+				EE9073752CADA36800653DD1 /* Info.plist */,
+				EE9073732CADA35C00653DD1 /* JosefinSans.ttf */,
+				EE9073712CADA03800653DD1 /* GameScreens */,
+				EE9073632CAD9F6900653DD1 /* Ball3GamesApp.swift */,
+				EE9073672CAD9F6D00653DD1 /* Assets.xcassets */,
+				EE9073692CAD9F6D00653DD1 /* Preview Content */,
+			);
+			path = Ball3Games;
+			sourceTree = "<group>";
+		};
+		EE9073692CAD9F6D00653DD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE90736A2CAD9F6D00653DD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE9073712CADA03800653DD1 /* GameScreens */ = {
+			isa = PBXGroup;
+			children = (
+				EE9073652CAD9F6900653DD1 /* ContentView.swift */,
+				EE9073722CADA03E00653DD1 /* Games */,
+				EE9073762CADA3A000653DD1 /* RecordsViewModel.swift */,
+			);
+			path = GameScreens;
+			sourceTree = "<group>";
+		};
+		EE9073722CADA03E00653DD1 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				EE9073842CADC3D400653DD1 /* CatchBallsSecondGame */,
+				EE90737D2CADBD9900653DD1 /* Views */,
+				EE9073782CADAAA000653DD1 /* CatchBallsFirstGame */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		EE9073782CADAAA000653DD1 /* CatchBallsFirstGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE9073792CADAAB100653DD1 /* CatchBallsFirstGameScene.swift */,
+				EE90737B2CADBCDE00653DD1 /* CatchBallsFirstGameView.swift */,
+			);
+			path = CatchBallsFirstGame;
+			sourceTree = "<group>";
+		};
+		EE90737D2CADBD9900653DD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE90737E2CADBDA900653DD1 /* NewRecordView.swift */,
+				EE9073802CADBF2900653DD1 /* LoseGameView.swift */,
+				EE9073822CADBFAD00653DD1 /* PauseGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE9073842CADC3D400653DD1 /* CatchBallsSecondGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE9073852CADC3E900653DD1 /* CatchBallsSecondGameScene.swift */,
+				EE9073872CADC88D00653DD1 /* CatchBallsSecondGameView.swift */,
+			);
+			path = CatchBallsSecondGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE90735F2CAD9F6900653DD1 /* Ball3Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE90736E2CAD9F6D00653DD1 /* Build configuration list for PBXNativeTarget "Ball3Games" */;
+			buildPhases = (
+				EE90735C2CAD9F6900653DD1 /* Sources */,
+				EE90735D2CAD9F6900653DD1 /* Frameworks */,
+				EE90735E2CAD9F6900653DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ball3Games;
+			productName = Ball3Games;
+			productReference = EE9073602CAD9F6900653DD1 /* Ball3Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9073582CAD9F6900653DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE90735F2CAD9F6900653DD1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE90735B2CAD9F6900653DD1 /* Build configuration list for PBXProject "Ball3Games" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9073572CAD9F6900653DD1;
+			productRefGroup = EE9073612CAD9F6900653DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE90735F2CAD9F6900653DD1 /* Ball3Games */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE90735E2CAD9F6900653DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE90736B2CAD9F6D00653DD1 /* Preview Assets.xcassets in Resources */,
+				EE9073682CAD9F6D00653DD1 /* Assets.xcassets in Resources */,
+				EE9073742CADA35C00653DD1 /* JosefinSans.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE90735C2CAD9F6900653DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9073812CADBF2900653DD1 /* LoseGameView.swift in Sources */,
+				EE9073832CADBFAD00653DD1 /* PauseGameView.swift in Sources */,
+				EE90737C2CADBCDE00653DD1 /* CatchBallsFirstGameView.swift in Sources */,
+				EE9073772CADA3A000653DD1 /* RecordsViewModel.swift in Sources */,
+				EE90737F2CADBDA900653DD1 /* NewRecordView.swift in Sources */,
+				EE9073882CADC88D00653DD1 /* CatchBallsSecondGameView.swift in Sources */,
+				EE9073662CAD9F6900653DD1 /* ContentView.swift in Sources */,
+				EE9073862CADC3E900653DD1 /* CatchBallsSecondGameScene.swift in Sources */,
+				EE90737A2CADAAB100653DD1 /* CatchBallsFirstGameScene.swift in Sources */,
+				EE9073642CAD9F6900653DD1 /* Ball3GamesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE90736C2CAD9F6D00653DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE90736D2CAD9F6D00653DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE90736F2CAD9F6D00653DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ball3Games/Preview Content\"";
+				DEVELOPMENT_TEAM = BK9T62H495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ball3Games/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.Ball3Games;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9073702CAD9F6D00653DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ball3Games/Preview Content\"";
+				DEVELOPMENT_TEAM = BK9T62H495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ball3Games/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.Ball3Games;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE90735B2CAD9F6900653DD1 /* Build configuration list for PBXProject "Ball3Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90736C2CAD9F6D00653DD1 /* Debug */,
+				EE90736D2CAD9F6D00653DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE90736E2CAD9F6D00653DD1 /* Build configuration list for PBXNativeTarget "Ball3Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90736F2CAD9F6D00653DD1 /* Debug */,
+				EE9073702CAD9F6D00653DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9073582CAD9F6900653DD1 /* Project object */;
+}
